@@ -1,0 +1,66 @@
+canvas {
+    border: 1px solid black;
+}
+
+#outer-container {
+    margin: 1px auto;
+    width: 100%;
+    height: 100vh;
+    border: 0px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #B9E0FF;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-top: -20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 1, 1);
+    transform: rotateX(10deg);
+}
+
+#resetbtndiv {
+    margin-top: 15px;
+
+display: flex;
+width: 718px;
+justify-content: flex-end;
+}
+
+#resetButton {
+    width: 120px;
+    height: 40px;
+    background-color: #205295;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#resetButton:hover {
+    background-color: #0A2647;
+}
+
+#resetButton:active {
+    background-color: #2C74B3;
+}
+
+#resetButton:focus {
+    outline: none;
+}
+
+#myCanvas {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    margin-top: 0px;
+    background-color: white;
+}
