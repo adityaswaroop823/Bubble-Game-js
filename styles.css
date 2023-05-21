@@ -30,7 +30,6 @@ display: flex;
 width: 718px;
 justify-content: flex-end;
 }
-
 #resetButton {
     width: 120px;
     height: 40px;
@@ -42,6 +41,7 @@ justify-content: flex-end;
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
 
 #resetButton:hover {
     background-color: #0A2647;
